@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aula 2 e 3</title>
+	<meta charset="utf-8">
+
+	<style type="text/css">
+		/* Antes tarde do que nunca */
+		.back {
+			background-color: rgba(0,0,0,1);
+		}
+		/* testando a formatação rgba() */
+		.texto1 {
+			background-color : rgba(255,00,00,0.8);
+			font-color: rgba(255,255,255,0.5);
+			font-family: verdana;
+			text-decoration: overline;
+			font-variant: small-caps;
+			font-size: 60px;
+			text-shadow: 10px 3px rgb(00,255,00), -10px 3px rgb(00,00,255);
+			color: black;
+			
+		}
+		/* deveras interessante */
+		.texto2 {
+			background-color: rgba(00,255,00,0.8);
+			font-color: rgb(255,255,255);
+			font-family: Trattatello, fantasy;
+			font-variant: small-caps;
+			font-size: 60px;
+			text-decoration: line-through;
+			text-shadow: 10px 3px rgb(255,00,00), -10px 3px rgb(00,00,255);
+			color: black;
+		}
+		.texto3 {
+			background-color: rgba(00,00,255,0.8);
+			font-family: Comic Sans MS, Comic Sans, cursive; 
+			font-color: rgb(255,255,255);
+			font-size: 60px; 
+			text-shadow: 10px 3px rgb(00,255,00), -10px 3px rgb(255,00,00);
+			color: black;
+			text-decoration: underline;
+		}
+		.texto4 {
+			letter-spacing: -2px;
+			word-spacing: 15px;
+			direction: rtl;
+			text-indent: 30px;
+			line-height: 15px;
+			color: white;
+			text-transform: capitalize;
+			text-align: center;
+
+		}
+		.br {
+			background-color: gray;
+		}
+	</style>
+</head>
+	 
+<body class="back">
+	
+	<p class="texto1" align="center"> 
+		Nintendo Switch
+	</p>
+	<p class="texto2" align="center"> 
+		Xbox Series X
+	</p>
+	<p class="texto3" align="center">
+		Playstation 5
+	</p>
+	<p class="texto4">
+		Lorem ipsum dolor<spam style="vertical-align: super;">sit</spam> amet, consectetur adipiscing elit. Fusce pharetra molestie accumsan. Mauris consectetur mollis lorem, et pulvinar elit vehicula.
+		<br class="br">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pharetra molestie accumsan. Mauris consectetur mollis lorem, et pulvinar elit vehicula.
+	</p>
+</body>
+</html>
